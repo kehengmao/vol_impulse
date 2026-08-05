@@ -7,9 +7,10 @@ bookTicker and aggTrade streams, infers the price response implied by liquidity
 and trade flow, and measures the instantaneous disagreement between observed and
 inferred price movement.
 
-The live dashboard is rendered with PySide6 and pyqtgraph. Market processing can
-run at sub-second sampling intervals while the UI uses a stable second-level
-render cycle (1000 ms by default) to keep the display responsive under load.
+The live dashboard is rendered with PySide6 and pyqtgraph. With the numerical
+kernels compiled, the algorithm can process millisecond-resolution data while
+the UI maintains a stable one-second render cycle (1000 ms by default), keeping
+the display responsive under load.
 
 ![Vol Impulse live PySide6 dashboard](demo_screenshot.png)
 
