@@ -133,6 +133,7 @@ AOT backend is verified separately by build.py.
 PROJECT LAYOUT
 --------------
 
+    README.md                      Project documentation and demo screenshot
     impulse.py                     Command-line live/offline entry point
     build.py                       Unified AOT build and verification command
     liba/demo_data.py              Deterministic Binance-shaped demo data
